@@ -1,0 +1,1 @@
+function n(e,{gsap:r,reduce:o}){if(o)return;const t=e.querySelector("img");t&&(r.set(t,{scale:1.1}),r.fromTo(t,{yPercent:-4},{yPercent:4,ease:"none",scrollTrigger:{trigger:e,start:"top bottom",end:"bottom top",scrub:!0}}))}export{n as default};

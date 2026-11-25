@@ -1,0 +1,1 @@
+function n(t,{gsap:e,reduce:o}){if(o)return;const r=t.querySelectorAll(".ink__w");e.set(r,{opacity:.2}),e.to(r,{opacity:1,ease:"none",stagger:.5,scrollTrigger:{trigger:t.querySelector(".ink__text"),start:"top 82%",end:"bottom 38%",scrub:.4}})}export{n as default};

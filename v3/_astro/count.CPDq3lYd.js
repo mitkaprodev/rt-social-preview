@@ -1,0 +1,1 @@
+function s(t,{gsap:o,ScrollTrigger:r,reduce:a}){const e=Number(t.dataset.count);if(a||!Number.isFinite(e))return;const u=new Intl.NumberFormat("ru-RU"),n={v:0};t.textContent="0",r.create({trigger:t,start:"top 88%",once:!0,onEnter:()=>o.to(n,{v:e,duration:1.4,ease:"expo.out",onUpdate:()=>{t.textContent=u.format(Math.round(n.v))}})})}export{s as default};

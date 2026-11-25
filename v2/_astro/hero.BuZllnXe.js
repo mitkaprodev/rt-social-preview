@@ -1,0 +1,1 @@
+function a(t,{gsap:e,reduce:o}){if(o)return;const r=t.querySelector("[data-hero-photo]"),n=t.querySelector("[data-hero-text]");e.timeline({scrollTrigger:{trigger:t,start:"top top",end:"bottom top",scrub:!0}}).to(r,{yPercent:18,ease:"none"},0).to(n,{yPercent:-40,opacity:0,ease:"none"},0)}export{a as default};
