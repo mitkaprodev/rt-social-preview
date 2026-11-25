@@ -1,4 +1,4 @@
-import{_ as q}from"./Base.astro_astro_type_script_index_0_lang.Dh8aPfZt.js";const A=`
+import{_ as q}from"./Base.astro_astro_type_script_index_0_lang.BDoiLrWF.js";const A=`
 attribute vec2 position;
 attribute vec2 uv;
 varying vec2 vUv;
